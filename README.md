@@ -6,8 +6,6 @@
 - **Campus:**
 - **Tutor:**
 
----
-<img width="1126" height="1051" alt="image" src="https://github.com/user-attachments/assets/9aab3d7b-0d66-4db8-ba9d-04275dd7a741" />
 
 
 ## Weekly Journal Entries
