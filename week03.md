@@ -22,5 +22,5 @@ CCA: In a chosen ciphertext attack, the attacker can choose ciphertexts and obta
 Modes of operation are needed because block ciphers like AES can only encrypt fixed-size blocks (e.g., 128 bits). In real-world applications, data is usually longer than one block. Modes of operation allow block ciphers to securely encrypt large amounts of data.  
 They also provide additional security features such as randomness (using IVs), error handling, and protection against patterns in the plaintext. Without modes of operation, encrypting multiple blocks directly would lead to security weaknesses, such as identical plaintext blocks producing identical ciphertext blocks.  
 
-2.3 Attack on AES-128 - Assume you have discovered a vulnerability in AES-128 such that an attack is 1,000,000 times faster than a brute force attack. You have access to $10,000,000 of equipment. How long would it take to break AES-128 with your attack
+2.3 Attack on AES-128 - Assume you have discovered a vulnerability in AES-128 such that an attack is 1,000,000 times faster than a brute force attack. You have access to $10,000,000 of equipment. How long would it take to break AES-128 with your attack?  
 Even at extremely high speeds, this would still take an astronomically long time, far longer than the age of the universe. Therefore, AES-128 remains secure even under this improved attack.
