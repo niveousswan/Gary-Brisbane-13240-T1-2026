@@ -1,4 +1,4 @@
-# COIT13240 Applied Cryptography (2025, Term 1) Journal
+# COIT13240 Applied Cryptography (2026, Term 1) Journal
 
 - **Student Name:** Haozhe Gai
 - **Student ID:** 12281100
