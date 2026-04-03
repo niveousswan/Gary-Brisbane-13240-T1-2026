@@ -4,14 +4,14 @@
 
 ---
 
-### 1. Basic learning  
+### 1. Basic Learning  
 
 In this week, I learned the basic workings of symmetric and asymmetric encryption, and then I learned some types of attacks against encryption systems, such as brute force and man-in-the-middle attacks. These made me understand the importance of proper and rigorous management of keys and algorithms, which should ensure the confidentiality and integrity of data.  
 In my opinion, hybrid encryption systems provide a more practical and secure design, as they combine the efficiency of symmetric encryption with the security of asymmetric encryption.
 
 ---
 
-### 2. Tutorial work  
+### 2. Tutorial Work  
 
 2.1 Information Known by Attacker - What is the difference between KPA, CPA and CCA? Theoretical (and practical) attacks on ciphers are often classified by what is assumed to be known by the attacker for the attack to be successful. Consider these three classifications, and try to list what is known and not known but the attacker before the attack starts.  
 KPA: In a known plaintext attack, the attacker has access to some plaintexts and their corresponding ciphertexts. However, they do not know the key. The goal is to use this information to recover the key or decrypt other messages.  
@@ -34,14 +34,14 @@ Time constraints – even with parallel systems, the time required is unrealisti
 
 ---
 
-### 4. Security Thinking  
+### 3. Security Thinking  
 
 Modern cryptography is designed to be secure against different types of attacks such as KPA, CPA, and CCA. Among these, CCA is considered the strongest attack model, so many modern encryption schemes aim to be secure against it.  
 This shows that security is not only about strong algorithms, but also about how attackers interact with the system.  
 
 ---
 
-### 7. References  
+### 4. References  
 
 Stallings, W. (2017). *Cryptography and network security: Principles and practice* (7th ed.). Pearson.  
 OpenSSL. (n.d.). OpenSSL command line tools documentation. https://www.openssl.org/docs/manmaster/man1/openssl-speed.html  
