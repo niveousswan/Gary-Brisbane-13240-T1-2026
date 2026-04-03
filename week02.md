@@ -5,9 +5,8 @@
 ---
 
 ### 1. Basic Learning  
-
-In this week, I learned some classical encryption methods, such as Caesar cipher, substitution cipher and Virginia cipher. I learned about the basic principles of classical cryptography and its importance in the development of cryptography.  
-In my opinion, cryptography is a field that is constantly evolving and needs continuous innovation and improvement to face new problems.
+This week, I explored some classical encryption methods such as the Caesar cipher, substitution cipher, and Vigenère cipher. These examples helped me understand how early encryption systems were designed and used.  
+From this, I started to see that cryptography is always changing. As technology develops, new problems appear, so encryption methods also need to be updated and improved.  
 
 ---
 
@@ -31,7 +30,8 @@ This shows that brute force attacks on a properly implemented One-Time Pad are c
 
 ### 3. Challenges and Problem Solving
 
-Classical ciphers such as Caesar and substitution ciphers are easy to understand but not secure, as they can be broken using frequency analysis. In contrast, the One-Time Pad is theoretically unbreakable if used correctly, because it uses a truly random key that is as long as the message. However, the One-Time Pad is difficult to use in practice because it requires secure key distribution.  
+Ciphers such as Caesar and substitution are easy to learn, but they are not strong in terms of security. They can usually be cracked by looking at patterns in the letters, such as frequency.  
+On the other hand, the One-Time Pad is theoretically impossible to break if it is used correctly, since it relies on a completely random key of the same length as the message. The main problem is that it is not practical, because distributing and storing the key securely is very challenging.  
 
 ---
 
