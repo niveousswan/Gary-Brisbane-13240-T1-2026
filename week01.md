@@ -6,8 +6,8 @@
 
 ### 1. Basic Learning
 
-This week, I learned several fundamental concepts in cryptography, including symmetric encryption, asymmetric encryption, keys, and hash functions. These concepts are essential for understanding how data is protected in modern communication systems.  
-I also learned about number system conversions and basic computer units. These topics helped me understand how data is represented and processed at a lower level.  
+This week, I was introduced to several core ideas in cryptography, such as symmetric and asymmetric encryption, keys, and hash functions. These concepts helped me better understand how information is secured in modern communication systems.  
+I also reviewed number system conversions and basic computer units, which gave me a clearer view of how data is represented and handled at a lower level inside a computer.  
 
 ---
 
