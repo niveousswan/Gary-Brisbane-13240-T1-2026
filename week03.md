@@ -23,7 +23,7 @@ Modes of operation are needed because block ciphers like AES can only encrypt fi
 They also provide additional security features such as randomness (using IVs), error handling, and protection against patterns in the plaintext. Without modes of operation, encrypting multiple blocks directly would lead to security weaknesses, such as identical plaintext blocks producing identical ciphertext blocks.  
 
 2.3 Brute Force of AES using Your Computer - Based on the OpenSSL speed tests, estimate how much it would cost you to perform a brute force attack on AES if you could buy as many computers the same as yours as you need. You will need to know or estimate the cost of your computer. As well as cost and time, what other practical limitations are there for such a brute force attack?  
-To estimate the cost of a brute force attack on AES-128, I first used OpenSSL speed tests on my computer with the following command "openssl speed -evp aes-128-ecb". It measures how many AES encryption operations my computer can perform per second for different block sizes.
+To estimate the cost of a brute force attack on AES-128, I first used OpenSSL speed tests on my computer with the following command "openssl speed -evp aes-128-ecb". It measures how many AES encryption operations my computer can perform per second for different block sizes.  
 <img width="803" height="305" alt="图片" src="https://github.com/user-attachments/assets/270459fe-5e5c-4341-ac97-539b08e92cd9" />  
 Even if I could buy a very large number of identical computers, the total cost and time would still be so large that a brute force attack on AES-128 is not practical. 
 In practice, brute force attacks on AES are also limited by:  
