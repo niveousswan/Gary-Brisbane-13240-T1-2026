@@ -34,7 +34,15 @@ Time constraints – even with parallel systems, the time required is unrealisti
 
 ---
 
-### 4. Security Thinking
+### 4. Security Thinking  
 
 Modern cryptography is designed to be secure against different types of attacks such as KPA, CPA, and CCA. Among these, CCA is considered the strongest attack model, so many modern encryption schemes aim to be secure against it.  
 This shows that security is not only about strong algorithms, but also about how attackers interact with the system.  
+
+---
+
+### 7. References  
+
+Stallings, W. (2017). *Cryptography and network security: Principles and practice* (7th ed.). Pearson.  
+OpenSSL. (n.d.). OpenSSL command line tools documentation. https://www.openssl.org/docs/manmaster/man1/openssl-speed.html  
+National Institute of Standards and Technology (NIST). (2001). *Advanced Encryption Standard (AES)* (FIPS PUB 197). https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf  
