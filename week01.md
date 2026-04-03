@@ -4,14 +4,14 @@
 
 ---
 
-1. Basic learning
+##　1. Basic learning
 
 This week, I learned several fundamental concepts in cryptography, including symmetric encryption, asymmetric encryption, keys, and hash functions. These concepts are essential for understanding how data is protected in modern communication systems.  
 I also learned about number system conversions and basic computer units. These topics helped me understand how data is represented and processed at a lower level.  
 
 ---
 
-2. Tutorial work
+##　2. Tutorial work
 
 2.1 Installing Ubuntu Linux  
 <img width="1218" height="837" alt="图片" src="https://github.com/user-attachments/assets/b91537f6-488f-4200-af57-f13898e1f4d7" />  
@@ -32,13 +32,13 @@ This will be useful for future cryptography-related tasks.
 
 ---
 
-3. Challenges and Problem Solving  
+## 3. Challenges and Problem Solving  
 One challenge I faced was understanding how to interact with the Linux system without a graphical interface. At first, I was unfamiliar with command-line operations.  
 To overcome this, I practised basic commands repeatedly and referred to online tutorials. After some practice, I became more comfortable navigating directories and running commands.
 
 ---
 
-4. Security Thinking  
+## 4. Security Thinking  
 One possible attack on encryption systems is brute force attack, where an attacker tries all possible keys.  
 This attack can succeed if the key is short. However, modern systems use long keys, making brute force attacks impractical because they would take too much time.  
 
