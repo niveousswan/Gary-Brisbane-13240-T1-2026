@@ -4,14 +4,14 @@
 
 ---
 
-### 1. Basic learning  
+### 1. Basic Learning  
 
 In this week, I learned some classical encryption methods, such as Caesar cipher, substitution cipher and Virginia cipher. I learned about the basic principles of classical cryptography and its importance in the development of cryptography.  
 In my opinion, cryptography is a field that is constantly evolving and needs continuous innovation and improvement to face new problems.
 
 ---
 
-### 2. Tutorial work  
+### 2. Tutorial Work  
 
 2.1 Caesar Decrypt - Using Caesar cipher with key 15, decrypt "pjhigpaxp".  
 <img width="367" height="602" alt="图片" src="https://github.com/user-attachments/assets/184ae2c8-c928-42d1-8cc8-8e99da079a39" />  
