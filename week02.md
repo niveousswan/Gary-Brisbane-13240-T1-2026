@@ -10,7 +10,7 @@ In my opinion, cryptography is a field that is constantly evolving and needs con
 
 ---
 
-### 2. Tutorial work
+### 2. Tutorial work  
 
 2.1 Caesar Decrypt - Using Caesar cipher with key 15, decrypt "pjhigpaxp".  
 <img width="367" height="602" alt="图片" src="https://github.com/user-attachments/assets/184ae2c8-c928-42d1-8cc8-8e99da079a39" />  
@@ -25,3 +25,8 @@ For a One-Time Pad using hexadecimal digits (base 16), each character has 16 pos
 For a message of 300 characters: Number of possible keys = 16³⁰⁰  
 If a computer can test 10¹⁰ keys per second: Worst-case time = 16³⁰⁰ / 10¹⁰ ≈ 1.72 × 10³⁵¹ seconds  
 This shows that brute force attacks on a properly implemented One-Time Pad are computationally infeasible.  
+
+---
+
+### 3. Challenges and Problem Solving
+
