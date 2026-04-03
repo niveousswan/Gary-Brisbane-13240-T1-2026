@@ -39,3 +39,18 @@ ECB encrypts each block independently, which makes it simple but not secure, bec
 CBC improves security by XORing each plaintext block with the previous ciphertext block. However, it must be processed sequentially, which makes it less efficient for parallel operations.  
 CTR mode uses a counter to generate a keystream, which is XORed with the plaintext. It is faster and supports parallel processing, and errors in one block do not affect others.  
 From this comparison, I found that CTR mode is generally more flexible and efficient, while CBC provides stronger chaining between blocks.  
+
+---
+
+### 3. Reflection
+
+This week was a bit more challenging compared to the previous ones, especially when learning about different modes of operation like CBC and CTR. At first, I found it confusing to understand how they actually work, but doing the calculations step by step helped me make sense of it.  
+Working with XOR operations also helped me understand how encryption is handled at a binary level, rather than just memorising formulas.  
+One thing I learned is that security is not only about the encryption algorithm itself, but also about how it is used. The choice of mode can change how secure and efficient the system is, which I found quite interesting.  
+
+---
+
+### 4. References  
+
+Stallings, W. (2017). *Cryptography and network security: Principles and practice* (7th ed.). Pearson.  
+National Institute of Standards and Technology (NIST). (2001). *Advanced Encryption Standard (AES)* (FIPS PUB 197). https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf  
