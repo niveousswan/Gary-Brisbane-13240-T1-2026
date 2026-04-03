@@ -18,7 +18,7 @@ KPA: In a known plaintext attack, the attacker has access to some plaintexts and
 CPA: In a chosen plaintext attack, the attacker can choose arbitrary plaintexts and obtain their corresponding ciphertexts. This gives the attacker more control compared to KPA, making it easier to analyze the encryption algorithm.  
 CCA: In a chosen ciphertext attack, the attacker can choose ciphertexts and obtain their corresponding plaintexts. This is the strongest model, as it allows the attacker to test how the system decrypts data.  
 
-2.2 Modes of Operation - Why are modes of operation needed?
+2.2 Modes of Operation - Why are modes of operation needed?  
 Modes of operation are needed because block ciphers like AES can only encrypt fixed-size blocks (e.g., 128 bits). In real-world applications, data is usually longer than one block. Modes of operation allow block ciphers to securely encrypt large amounts of data.  
 They also provide additional security features such as randomness (using IVs), error handling, and protection against patterns in the plaintext. Without modes of operation, encrypting multiple blocks directly would lead to security weaknesses, such as identical plaintext blocks producing identical ciphertext blocks.  
 
