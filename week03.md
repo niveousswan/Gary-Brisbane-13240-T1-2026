@@ -7,7 +7,7 @@
 ### 1. Basic learning  
 
 In this week, I learned the basic workings of symmetric and asymmetric encryption, and then I learned some types of attacks against encryption systems, such as brute force and man-in-the-middle attacks. These made me understand the importance of proper and rigorous management of keys and algorithms, which should ensure the confidentiality and integrity of data.  
-In my opinion, have a hybrid encryption system is a more reasonable protection design. It needs to go through strict inspection and testing to ensure its security, only continuous optimization of the encryption system can maintain its balance and safe.  
+In my opinion, hybrid encryption systems provide a more practical and secure design, as they combine the efficiency of symmetric encryption with the security of asymmetric encryption.
 
 ---
 
@@ -23,6 +23,18 @@ Modes of operation are needed because block ciphers like AES can only encrypt fi
 They also provide additional security features such as randomness (using IVs), error handling, and protection against patterns in the plaintext. Without modes of operation, encrypting multiple blocks directly would lead to security weaknesses, such as identical plaintext blocks producing identical ciphertext blocks.  
 
 2.3 Brute Force of AES using Your Computer - Based on the OpenSSL speed tests, estimate how much it would cost you to perform a brute force attack on AES if you could buy as many computers the same as yours as you need. You will need to know or estimate the cost of your computer. As well as cost and time, what other practical limitations are there for such a brute force attack?  
-To estimate the cost of a brute force attack on AES-128, I first used OpenSSL speed tests on my computer with the following command "openssl speed -evp aes-128-ecb".
+To estimate the cost of a brute force attack on AES-128, I first used OpenSSL speed tests on my computer with the following command "openssl speed -evp aes-128-ecb". It measures how many AES encryption operations my computer can perform per second for different block sizes.
 <img width="803" height="305" alt="图片" src="https://github.com/user-attachments/assets/270459fe-5e5c-4341-ac97-539b08e92cd9" />  
-Even if I could buy a very large number of identical computers, the total cost and time would still be so large that a brute force attack on AES-128 is not practical.  
+Even if I could buy a very large number of identical computers, the total cost and time would still be so large that a brute force attack on AES-128 is not practical. 
+In practice, brute force attacks on AES are also limited by:  
+Hardware cost – building enough machines is extremely expensive  
+Energy consumption – the electricity required would be enormous  
+Physical limits – processing speed cannot increase indefinitely  
+Time constraints – even with parallel systems, the time required is unrealistic  
+
+---
+
+### 4. Security Thinking
+
+Modern cryptography is designed to be secure against different types of attacks such as KPA, CPA, and CCA. Among these, CCA is considered the strongest attack model, so many modern encryption schemes aim to be secure against it.  
+This shows that security is not only about strong algorithms, but also about how attackers interact with the system.  
