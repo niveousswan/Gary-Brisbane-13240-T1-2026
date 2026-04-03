@@ -45,5 +45,5 @@ This attack can succeed if the key is short. However, modern systems use long ke
 ---
 
 ### 5. References  
-- Stallings, W. Cryptography and Network Security.  
-- https://www.geeksforgeeks.org/cryptography-introduction/  
+Stallings, W. (2017). *Cryptography and network security: Principles and practice* (7th ed.). Pearson.  
+GeeksforGeeks. (n.d.). Cryptography introduction. https://www.geeksforgeeks.org/cryptography-introduction/  
