@@ -13,7 +13,7 @@ In my opinion, have a hybrid encryption system is a more reasonable protection d
 
 ### 2. Tutorial work  
 
-2.1 Information Known by Attacker - What is the difference between KPA, CPA and CCA? Theoretical (and practical) attacks on ciphers are often classified by what is assumed to be known by the attacker for the attack to be successful. Consider these three classifications, and try to list what is known and not known but the attacker before the attack starts.
+2.1 Information Known by Attacker - What is the difference between KPA, CPA and CCA? Theoretical (and practical) attacks on ciphers are often classified by what is assumed to be known by the attacker for the attack to be successful. Consider these three classifications, and try to list what is known and not known but the attacker before the attack starts.  
 KPA: In a known plaintext attack, the attacker has access to some plaintexts and their corresponding ciphertexts. However, they do not know the key. The goal is to use this information to recover the key or decrypt other messages.  
 CPA: In a chosen plaintext attack, the attacker can choose arbitrary plaintexts and obtain their corresponding ciphertexts. This gives the attacker more control compared to KPA, making it easier to analyze the encryption algorithm.  
 CCA: In a chosen ciphertext attack, the attacker can choose ciphertexts and obtain their corresponding plaintexts. This is the strongest model, as it allows the attacker to test how the system decrypts data.  
