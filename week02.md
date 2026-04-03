@@ -5,6 +5,7 @@
 ---
 
 ### 1. Basic learning  
+
 In this week, I learned some classical encryption methods, such as Caesar cipher, substitution cipher and Virginia cipher. I learned about the basic principles of classical cryptography and its importance in the development of cryptography.  
 In my opinion, cryptography is a field that is constantly evolving and needs continuous innovation and improvement to face new problems.
 
@@ -30,3 +31,18 @@ This shows that brute force attacks on a properly implemented One-Time Pad are c
 
 ### 3. Challenges and Problem Solving
 
+Classical ciphers such as Caesar and substitution ciphers are easy to understand but not secure, as they can be broken using frequency analysis. In contrast, the One-Time Pad is theoretically unbreakable if used correctly, because it uses a truly random key that is as long as the message. However, the One-Time Pad is difficult to use in practice because it requires secure key distribution.  
+
+---
+
+### 4. Reflection
+
+This week helped me understand the strengths and weaknesses of different encryption methods. While classical ciphers are useful for learning, they are not secure in real-world applications.
+I also realised that strong security often comes with practical challenges, such as key management in the One-Time Pad.  
+
+---
+
+### 5. References
+
+Stallings, W. (2017). Cryptography and network security: Principles and practice (7th ed.). Pearson.  
+GeeksforGeeks. (n.d.). Cryptography introduction. https://www.geeksforgeeks.org/cryptography-introduction/  
