@@ -23,9 +23,23 @@ During the setup, I successfully installed the system and verified that it could
 This screenshot shows my GitHub profile and the repository created for this unit (COIT13240-Journal). I initialised the repository and began committing my work regularly.  
 
 2.3 Basic Linux Practice  
-After installing Ubuntu, I practised basic Linux commands such as: 'ls', 'cd', and 'pwd'. These commands helped me navigate the file system and understand how Linux operates without a graphical interface.  
+After installing Ubuntu, I practised basic Linux commands such as 'ls', 'cd', and 'pwd'.   
+These commands helped me navigate the file system and understand how Linux operates without a graphical interface.  
 
 2.4 Python Installation  
-I also installed Python in the Linux environment and confirmed the installation by running:  
-python3 --version  
+I also installed Python in the Linux environment and confirmed the installation by running 'python3 --version'.  
 This will be useful for future cryptography-related tasks.  
+
+
+3. Challenges and Problem Solving  
+One challenge I faced was understanding how to interact with the Linux system without a graphical interface. At first, I was unfamiliar with command-line operations.  
+To overcome this, I practised basic commands repeatedly and referred to online tutorials. After some practice, I became more comfortable navigating directories and running commands.
+
+
+4. Security Thinking  
+One possible attack on encryption systems is brute force attack, where an attacker tries all possible keys.  
+This attack can succeed if the key is short. However, modern systems use long keys, making brute force attacks impractical because they would take too much time.  
+
+7. References  
+- Stallings, W. Cryptography and Network Security.  
+- https://www.geeksforgeeks.org/cryptography-introduction/  
