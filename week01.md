@@ -30,16 +30,20 @@ These commands helped me navigate the file system and understand how Linux opera
 I also installed Python in the Linux environment and confirmed the installation by running 'python3 --version'.  
 This will be useful for future cryptography-related tasks.  
 
+---
 
 3. Challenges and Problem Solving  
 One challenge I faced was understanding how to interact with the Linux system without a graphical interface. At first, I was unfamiliar with command-line operations.  
 To overcome this, I practised basic commands repeatedly and referred to online tutorials. After some practice, I became more comfortable navigating directories and running commands.
 
+---
 
 4. Security Thinking  
 One possible attack on encryption systems is brute force attack, where an attacker tries all possible keys.  
 This attack can succeed if the key is short. However, modern systems use long keys, making brute force attacks impractical because they would take too much time.  
 
-7. References  
+---
+
+5. References  
 - Stallings, W. Cryptography and Network Security.  
 - https://www.geeksforgeeks.org/cryptography-introduction/  
