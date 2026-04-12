@@ -21,12 +21,12 @@ n = 179 * 181 = 32399
 e = 7  
 (7 * d) mod 32040 = 1  
 d = 13733  
-PU = {name = Haozhe， e = 7， n = 32399}  
+PU = {name = Haozhe, e = 7, n = 32399}  
 
 2. RSA Encryption and Decryption  
 M = 123  
 C = 1237^7 mod 32399 = 18184  
-Ciphertext {from = Haozhe， to = Rahman， C = 18184}  
+Ciphertext {from = Haozhe, to = Rahman, C = 18184}  
 
 ---
 
