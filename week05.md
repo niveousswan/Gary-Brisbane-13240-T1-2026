@@ -38,8 +38,8 @@ To address this, I tried to break the system down into smaller components and un
 ---
 
 ### 4. Reflection  
-This week helped me understand the importance of thinking beyond individual algorithms. While earlier topics focused on how encryption works, this week highlighted how these techniques are used together in real systems.  
-I also realised that security is often about making trade-offs between performance, usability, and protection. This made me think more critically about how systems are designed, rather than just how they work.  
+Compared to previous weeks, this week felt more focused on understanding how things are used in practice rather than just learning individual concepts.  
+I realised that even if an algorithm itself is secure, the way it is used can still create problems. This made me think more about how systems are designed, not just how they work.  
 
 ---
 
