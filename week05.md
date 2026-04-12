@@ -22,7 +22,7 @@ e = 7
 d = 13733  
 PU = {name = Haozhe, e = 7， n  32399}  
 
-2. RSA Encryption and Decryption
-M = 123
-C = 1237^7 mod 32399 = 18184
-Ciphertext {from = Haozhe, to = Rahman, C = 18184}
+2. RSA Encryption and Decryption  
+M = 123  
+C = 1237^7 mod 32399 = 18184  
+Ciphertext {from = Haozhe, to = Rahman, C = 18184}  
