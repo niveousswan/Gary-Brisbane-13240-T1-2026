@@ -1,10 +1,10 @@
 # COIT13240 Applied Cryptography (2026, Term 1) Journal
 
-- **Student Name:** Haozhe Gai
-- **Student ID:** 12281100
-- **Student Email:** haozhe.gai@cqumail.com
-- **Campus:** Brisbane
-- **Tutor:** Dr Gary Zhai
+- **Student Name:** 
+- **Student ID:** 
+- **Student Email:** 
+- **Campus:** 
+- **Tutor:** 
 
 
 
@@ -12,9 +12,7 @@
 
 - [Week 01](week01.md)  
 - [Week 02](week02.md)  
-- [Week 03](week03.md)
-- [Week 04](week04.md)
-- [Week 05](week05.md)  
+- [Week 03](week03.md)  
 ...
 
 ---
